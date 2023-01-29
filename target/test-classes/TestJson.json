@@ -1,0 +1,17 @@
+{
+	"SmartTech": {
+		"Organization_Type": "IT company",
+		"Head_office": "New York",
+		"Office number": 4954758490,
+		"Office_email": "info.smarttech@IT.org",
+		"Address": "75th street, JH, NY",
+		"building_number": "37-21",
+		"Sub_Center": "IT training",
+		"Boot Camp": [{
+			"Start Date": "01/27/2023",
+			"End Date": "01/29/2023",
+			"Time": "2pm to 8 pm",
+			"Food": "Dinner"
+		}]
+	}
+}

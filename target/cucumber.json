@@ -1,0 +1,210 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-29T22:41:13.923Z",
+        "line": 5,
+        "name": "As a Green Cart user, need to get data with API",
+        "description": "",
+        "id": "read-data-with-api;as-a-green-cart-user--need-to-get-data-with-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2998176800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Setup test data in JSON format \u0026 connect get method with URL",
+            "match": {
+              "location": "StepDef.setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4121200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check Status code",
+            "match": {
+              "location": "StepDef.checkStatusCode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 860999,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check Response time",
+            "match": {
+              "location": "StepDef.checkResponseTime()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check Content-type json or not",
+            "match": {
+              "location": "StepDef.checkDataFormat()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Check body data null or not",
+            "match": {
+              "location": "StepDef.checkBodyDataNull_Or_Not()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CURD_Function"
+          },
+          {
+            "name": "@BCNP-22"
+          },
+          {
+            "name": "@Read_Data"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-29T22:41:16.934Z",
+        "line": 14,
+        "name": "As a Green Cart user, need to create data with API",
+        "description": "",
+        "id": "read-data-with-api;as-a-green-cart-user--need-to-create-data-with-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 418356500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Setup test data in JSON format \u0026 connect post method with URL",
+            "match": {
+              "location": "StepDef.setup_test_data_in_JSON_format_connect_post_method_with_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77299,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "check Status code",
+            "match": {
+              "location": "StepDef.checkStatusCode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "check Response time",
+            "match": {
+              "location": "StepDef.checkResponseTime()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "check Content-type json or not",
+            "match": {
+              "location": "StepDef.checkDataFormat()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1623801,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Check body data null or not",
+            "match": {
+              "location": "StepDef.checkBodyDataNull_Or_Not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293001,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Check attribute origin is there or not there",
+            "match": {
+              "location": "StepDef.check_attribute_origin_is_there_or_not_there()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1084047400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Check brocolli value",
+            "match": {
+              "location": "StepDef.check_brocolli_value()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CURD_Function"
+          },
+          {
+            "name": "@BCNP-24"
+          },
+          {
+            "name": "@Create_Data"
+          }
+        ]
+      }
+    ],
+    "name": "Read data with API",
+    "description": "",
+    "id": "read-data-with-api",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/API_CURD_Function.feature",
+    "tags": [
+      {
+        "name": "@CURD_Function",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
